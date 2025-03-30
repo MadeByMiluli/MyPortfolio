@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "link":"https://github.com/MadeByMiluli/TPFinalMadeByMiluli",
+      "source": "/Assets/ProjectPhotos/Logo_MadeByMiluli HORIZONTAL CONTRASTE.jpg",
+      "title": "Plataforma E-COMMERCE",
+      "info": "Trabajo practico final de tecnicatura universitaria en progrmacion UTN. E-commerce para Made by Miluli, venta de tejidos de crochet.",
+      "language":"Angular"
+      },{
+        "link":"http://github.com/MadeByMiluli/TP-programacionII",
+      "source": "/Assets/ProjectPhotos/5098401.jpg",
+      "title": "Gestion de practicas de laboratorio",
+      "info": "Sistema de Gestion de Practicas de Laboratorio. Trabajo final Programacion II",
+      "language":"C"
+    },{
+      "link":"https://github.com/MadeByMiluli/TP-Programacion-I",
+      "source": "/Assets/ProjectPhotos/Logo_MadeByMiluli HORIZONTAL CONTRASTE.jpg",
+      "title": "Gestion de ventas y stock",
+      "info": "Sistema de gestion de Stock y Ventas. Trabajo Final para Programacion I",
+      "language":"c"
+    },
+    {
+      "link":"https://github.com/MadeByMiluli/TPFinalLabo3",
+      "source": "/Assets/ProjectPhotos/Logo_MadeByMiluli HORIZONTAL CONTRASTE.jpg",
+      "title": "Forgotten Depths",
+      "info": " Juego RPG . Trabajo Practico final Programacion III",
+      "language":"java"
+    },
+    {
+      "link":"https://github.com/MadeByMiluli/TPFinalLabo3",
+      "source": "/Assets/ProjectPhotos/Logo_MadeByMiluli HORIZONTAL CONTRASTE.jpg",
+      "title": "My Portfolio",
+      "info": " Porfolio,Proyeco personal",
+      "language":"Angular"
+    }
+
+
+  ]
+}

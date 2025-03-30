@@ -1,0 +1,22 @@
+.icon {
+  height: 100px;
+  width: auto;
+  margin: 20px 0 0 0;
+}
+.container{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  gap: 30px;
+
+  color: #85B6E5;
+
+}
+.options{
+  display: flex;
+margin: 20PX;
+  flex-direction: row;
+  gap: 20px;
+}
+

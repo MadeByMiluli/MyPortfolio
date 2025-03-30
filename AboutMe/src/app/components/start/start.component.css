@@ -1,0 +1,63 @@
+.icon {
+  height: 600px;
+  width: auto;
+}
+.intro{
+  background-color: #FED7DE;
+  display: flex;
+ flex-direction: row;
+ font-size: 40px;
+ gap: 30px;
+ padding: 70px;
+
+}
+.project{
+  background-color: #85B6E5;
+  display: flex;
+ flex-direction: column;
+ font-size: 40px;
+ gap: 30px;
+
+}
+
+.flower {
+  height: 100px;
+  width: auto;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding-top: 100px;
+}
+.pink
+{
+  background-color: #FED7DE;
+
+}
+.blue{
+  background-color: #85B6E5;
+}
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 351px;
+  transform: rotateY(180deg);
+}
+
+.wave .shape-fill {
+  fill: #FED7DE;
+}
