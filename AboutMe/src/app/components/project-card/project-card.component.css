@@ -1,0 +1,51 @@
+.card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card .title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.card .info {
+  font-size: 1rem;
+  color: #666;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.card .flower {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 30px;
+  height: auto;
+}
+
+.card .flower:hover {
+  transform: scale(1.1);
+}
