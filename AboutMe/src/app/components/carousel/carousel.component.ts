@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
-import { ProjectCardComponent } from "../project-card/project-card.component";
+import { Component, HostListener } from '@angular/core';
+import { ProjectCardComponent } from '../project-card/project-card.component';
 import { ProjectsService } from '../../services/projects.service';
 import { Project } from '../../models/project';
 
@@ -13,28 +13,58 @@ import { Project } from '../../models/project';
 })
 export class CarouselComponent {
   projectList: Project[] = [];
-  constructor(private projectService:ProjectsService){
+  startIndex = 0;
+  itemsPerPage = 1
+  isMobile = false;
 
+  constructor(private projectService: ProjectsService) {}
+
+  ngOnInit() {
+    this.getProjects();
+    this.adjustItemsPerPage();
   }
 
-  ngOnInit(){
-    this.getProjects()
-
-  }
-
-  getProjects(){
-    this.projectService.getProjects().subscribe(
-      {
-        next:(list)=>{
-          this.projectList =list
-          console.log(list)
-
-
-        }
+  getProjects() {
+    this.projectService.getProjects().subscribe({
+      next: (list) => {
+        this.projectList = list;
       }
-    )
-
+    });
   }
 
+  get visibleProjects(): Project[] {
+    return this.isMobile
+      ? this.projectList
+      : this.projectList.slice(this.startIndex, this.startIndex + this.itemsPerPage);
+  }
 
+  nextSlide() {
+    if (!this.isMobile && this.startIndex + this.itemsPerPage < this.projectList.length) {
+      this.startIndex++;
+    }
+  }
+
+  prevSlide() {
+    if (!this.isMobile && this.startIndex > 0) {
+      this.startIndex--;
+    }
+  }
+
+  @HostListener('window:resize')
+  onResize() {
+    this.adjustItemsPerPage();
+  }
+
+  adjustItemsPerPage() {
+    const width = window.innerWidth;
+    this.isMobile = width <= 768;
+
+    if (width > 1200) {
+      this.itemsPerPage = 2;
+    } else if (width > 900) {
+      this.itemsPerPage = 1;
+    } else {
+      this.itemsPerPage = 1;
+    }
+  }
 }

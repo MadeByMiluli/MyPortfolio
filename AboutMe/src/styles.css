@@ -11,3 +11,9 @@ body {
   font-style: normal;
   color: white;
 }
+p {
+  font-family: 'Roboto', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}

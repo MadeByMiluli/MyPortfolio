@@ -1,5 +1,5 @@
 .icon {
-  height: 100px;
+  height: 80px;
   width: auto;
   margin: 20px 0 0 0;
 }
@@ -7,7 +7,7 @@
   background-color: white;
   display: flex;
   justify-content: space-between;
-  font-size: 15px;
+  font-size: 10px;
   gap: 30px;
 
   color: #85B6E5;
@@ -19,4 +19,46 @@ margin: 20PX;
   flex-direction: row;
   gap: 20px;
 }
+h1:hover {
+  color: #85B6E5;
+  transition: color 0.3s ease;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 
+}
+h1:hover::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #85B6E5;
+  margin-top: 5px;
+}
+
+
+@media (max-width:600px){
+  .icon {
+    height: 30px;
+    width: auto;
+    margin: 20px 0 0 0;
+  }
+  .container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 5px;
+    gap: 30px;
+    color: #85B6E5;
+
+  }
+  .options{
+    display: flex;
+  margin: 20PX;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+
+
+}

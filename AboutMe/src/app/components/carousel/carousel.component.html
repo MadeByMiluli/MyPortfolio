@@ -1,9 +1,23 @@
+<!-- Desktop layout -->
+<div class="card-wrapper" *ngIf="!isMobile">
+  <img src="/Assets/Sin título(2).png" (click)="prevSlide()" class="nav-arrow left-arrow" />
 
-<div class="card-wrapper">
-  <ul class="card-list">
-    <li class="card-item" *ngFor="let project of projectList">
+  <div class="card-container">
+    <ul class="card-list">
+      <li class="card-item" *ngFor="let project of visibleProjects">
+        <app-project-card [project]="project"></app-project-card>
+      </li>
+    </ul>
+  </div>
+
+  <img src="/Assets/Sin título(1).png" (click)="nextSlide()" class="nav-arrow right-arrow" />
+</div>
+
+<!-- Mobile layout with scroll -->
+<div class="card-scroll-wrapper" *ngIf="isMobile">
+  <ul class="scroll-list">
+    <li class="scroll-item" *ngFor="let project of projectList">
       <app-project-card [project]="project"></app-project-card>
     </li>
   </ul>
-
 </div>

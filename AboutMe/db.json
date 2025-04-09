@@ -14,26 +14,65 @@
       "language":"C"
     },{
       "link":"https://github.com/MadeByMiluli/TP-Programacion-I",
-      "source": "/Assets/ProjectPhotos/Logo_MadeByMiluli HORIZONTAL CONTRASTE.jpg",
+      "source": "/Assets/ProjectPhotos/gestion deventas.png",
       "title": "Gestion de ventas y stock",
       "info": "Sistema de gestion de Stock y Ventas. Trabajo Final para Programacion I",
       "language":"c"
     },
     {
       "link":"https://github.com/MadeByMiluli/TPFinalLabo3",
-      "source": "/Assets/ProjectPhotos/Logo_MadeByMiluli HORIZONTAL CONTRASTE.jpg",
+      "source": "/Assets/ProjectPhotos/Screenshot 2025-03-30 143311.png",
       "title": "Forgotten Depths",
       "info": " Juego RPG . Trabajo Practico final Programacion III",
       "language":"java"
     },
     {
-      "link":"https://github.com/MadeByMiluli/TPFinalLabo3",
-      "source": "/Assets/ProjectPhotos/Logo_MadeByMiluli HORIZONTAL CONTRASTE.jpg",
+      "link":"https://github.com/MadeByMiluli/MyPortfolio",
+      "source": "/Assets/Flor_MadeByMiluli.png",
       "title": "My Portfolio",
       "info": " Porfolio,Proyeco personal",
       "language":"Angular"
     }
 
 
+  ],
+
+  "languages": [
+    {
+      "name": "Angular",
+      "icon": "/Assets/icons/angular.png"
+    },
+    {
+      "name": "C",
+      "icon": "/Assets/icons/c.png"
+    },
+    {
+      "name": "CSS",
+      "icon": "/Assets/icons/css.png"
+    },
+    {
+      "name": "Git",
+      "icon": "/Assets/icons/git.png"
+    },
+    {
+      "name": "GitHub",
+      "icon": "/Assets/icons/github.png"
+    },
+    {
+      "name": "HTML",
+      "icon": "/Assets/icons/html.png"
+    },
+    {
+      "name": "Java",
+      "icon": "/Assets/icons/java.png"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "/Assets/icons/js.png"
+    },
+    {
+      "name": "Python",
+      "icon": "/Assets/icons/python.png"
+    }
   ]
 }
