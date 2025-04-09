@@ -13,7 +13,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+<<<<<<< Updated upstream
             "outputPath": "dist/about-me",
+=======
+            "outputPath": "dist/MilagrosRodriguezPortfolio",
+>>>>>>> Stashed changes
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -86,7 +90,11 @@
             ],
             "styles": [
               "src/styles.css"
+<<<<<<< Updated upstream
         
+=======
+
+>>>>>>> Stashed changes
             ],
             "scripts": [
 
