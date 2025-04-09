@@ -1,51 +1,107 @@
+/* Contenedor general de las cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+/* Estilo de cada card */
 .card {
-  width: 300px;
+  width: 320px;
+  min-height: 300px;
   background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin: 20px;
-  padding: 20px;
-  text-align: center;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
 }
+
 
 .card img {
   width: 100%;
-  height: auto;
-  border-radius: 10px;
+  height: 220px;
   object-fit: cover;
+  border-radius: 0.5rem;
 }
 
+/* Título */
 .card .title {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: bold;
+  margin: 1rem 0 0.5rem 0;
   color: #333;
-  margin-top: 15px;
-  text-transform: uppercase;
+  text-align: center;
 }
+
 
 .card .info {
   font-size: 1rem;
   color: #666;
-  margin: 10px 0;
-  line-height: 1.5;
+  text-align: center;
+  flex-grow: 1;
+  margin-bottom: 1rem;
+
 }
 
+/* Botón o enlace */
+.card .button {
+  display: inline-block;
+  text-align: center;
+  background-color: #ff7f50;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.card .button:hover {
+  background-color: #ff5722;
+}
 .card .flower {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  width: 30px;
+  bottom: 20px;           /* Reduced distance from the bottom */
+  right: 20px;            /* Reduced distance from the right */
+  width: 70px;          /* Smaller flower size */
   height: auto;
+  z-index: 1;
 }
 
 .card .flower:hover {
-  transform: scale(1.1);
+  transform: scale(1.05); /* Smaller hover scale */
+}
+
+.card:hover {
+  transform: scale(1.03); /* Reduced hover scale */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Smaller box-shadow on hover */
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .card {
+    width: 200px;
+    min-height: 300px;
+  }
+
+  .card img {
+    height: 180px;
+  }
+
+  .card .title {
+    font-size: 1rem;
+  }
+
+  .card .info {
+    font-size: 0.50rem;
+  }
 }

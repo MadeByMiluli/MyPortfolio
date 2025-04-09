@@ -1,0 +1,50 @@
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.carousel-arrow {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 25px;
+}
+
+.language-item {
+  width: 70px;
+  height: 70px;
+  background-color: #FED7DE;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.language-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.language-item:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.carousel-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.carousel-scroll .language-item {
+  min-width: 50px;
+  min-height: 50px;
+}

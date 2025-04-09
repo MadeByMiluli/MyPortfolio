@@ -1,0 +1,29 @@
+<!-- Desktop layout -->
+<div class="carousel-wrapper" *ngIf="!isMobile">
+  <img
+    src="/Assets/Sin título(2).png"
+    alt="Left arrow"
+    class="carousel-arrow"
+    (click)="prevSlide()"
+  />
+
+  <div class="carousel-track">
+    <div class="language-item" *ngFor="let language of visibleLanguages">
+      <img [src]="language.icon" [alt]="language.name" class="language-icon" />
+    </div>
+  </div>
+
+  <img
+    src="/Assets/Sin título(1).png"
+    alt="Right arrow"
+    class="carousel-arrow"
+    (click)="nextSlide()"
+  />
+</div>
+
+<!-- Mobile scroll layout -->
+<div class="carousel-scroll" *ngIf="isMobile">
+  <div class="language-item" *ngFor="let language of languageList">
+    <img [src]="language.icon" [alt]="language.name" class="language-icon" />
+  </div>
+</div>

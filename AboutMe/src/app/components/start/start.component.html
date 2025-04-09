@@ -1,17 +1,20 @@
 <div class="container">
-  <section class="pink">
-    <div class="intro" id="intro">
-      <img src="/Assets/mimi.png" alt="MadeByMiluli" (click)="navigateToSection()" routerLinkActive="router-link-active"
-        class="icon">
+  <section class="pink" id="intro">
+
+    <div class="intro" >
 
 
+      <img src="/Assets/mimi.png" alt="MadeByMiluli"   class="icon">
 
-      <div>
-        <img src="/Assets/Flor_MadeByMiluli.png" alt="MadeByMiluli" class="flower">
-        <h1>Milagros Abril </h1>
+      <div class="info">
+
+        <h1>Milagros Abril</h1>
         <h1>Rodriguez</h1>
+
         <p>ESTUDIANTE DE TECNICATURA UNIVERSITARIA EN PROGRAMACIÓN</p>
+
       </div>
+
     </div>
 
 
@@ -19,16 +22,20 @@
   </section>
 
 
-  <section class="blue">
+  <section class="blue" id="project">
     <div class="wave">
+
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+
         <path
           d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
           class="shape-fill"></path>
       </svg>
+
+
     </div>
 
-    <div class="project" id="project">
+    <div class="project">
       <h1>Proyectos</h1>
 
       <app-carousel></app-carousel>
@@ -36,8 +43,69 @@
 
     </div>
 
-  </section>
 
+  </section>
+  <section class="green"  id="aboutMe">
+    <div class="wave2">
+
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+          class="shape-fill"></path>
+      </svg>
+
+
+    </div>
+    <div class="about">
+      <div class="top">
+       <img src="/Assets/Flor_MadeByMiluli.png" alt="MadeByMiluli" class="flower">
+    <h1>Sobre Mi</h1>
+      </div>
+
+    <p>
+      Estudiante de Programación trabajando en proyectos bajo el nombre MadeByMiluli. Actualmente aprendiendo Angular,
+      CSS y JavaScript,
+      y explorando el uso de Figma para planificar
+      mis diseños antes de llevarlos a código. Con una gran capacidad de aprendizaje, siempre estoy en busca de nuevos
+      desafíos.
+    </p>
+    <h2>Tecnologias con conocimientos Basicos</h2>
+    <app-languages-carous></app-languages-carous>
+    </div>
+
+
+  </section>
+  <section class="blue" id="contact">
+    <div class="wave3">
+
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+          class="shape-fill"></path>
+      </svg>
+
+    </div>
+    <div class="contact" >
+
+       <h1>Contacto</h1>
+       <div class="icons-row">
+        <a href="https://www.linkedin.com/in/milagros-rodriguez-a9b57220b" target="_blank">
+          <img src="/Assets/contact/linkedin.png" alt="linkedin" class="icon">
+        </a>
+
+        <a href="https://github.com/MadeByMiluli" target="_blank">
+          <img src="/Assets/contact/github.png" alt="github" class="icon">
+        </a>
+
+        <a href="mailto:milagrosarbil.r@gmail.com">
+          <img src="/Assets/contact/mail.png" alt="email" class="icon">
+        </a>
+      </div>
+    </div>
+
+
+
+  </section>
 
 
 </div>
