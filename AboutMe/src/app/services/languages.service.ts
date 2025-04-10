@@ -8,9 +8,9 @@ import { HttpClient } from '@angular/common/http';
 })
 export class LanguagesService {
 
-
   //private apiUrl="http://localhost:3000/languages"
   private apiUrl="assets/languages.json"
+
 
    private http= inject(HttpClient);
 
