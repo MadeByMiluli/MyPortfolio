@@ -7,7 +7,15 @@ import { Project } from '../models/project';
   providedIn: 'root'
 })
 export class ProjectsService {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
  private apiUrl="http://localhost:3000/projects"
+=======
+ private apiUrl="assets/projects.json"
+>>>>>>> Stashed changes
+=======
+ private apiUrl="assets/projects.json"
+>>>>>>> Stashed changes
  private http= inject(HttpClient);
 
   getProjects():Observable<Project[]>{

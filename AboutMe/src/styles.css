@@ -6,7 +6,15 @@ body {
 
 @font-face {
   font-family: 'MyCustomFont';
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   src: url('/Assets/Font/RecoletaAlt-Bold.ttf') format('truetype');
+=======
+  src: url('assets/Font/RecoletaAlt-Medium.ttf') format('truetype');
+>>>>>>> Stashed changes
+=======
+  src: url('assets/Font/RecoletaAlt-Medium.ttf') format('truetype');
+>>>>>>> Stashed changes
   font-weight: normal;
   font-style: normal;
   color: white;

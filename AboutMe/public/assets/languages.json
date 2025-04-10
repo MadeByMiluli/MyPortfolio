@@ -1,0 +1,40 @@
+{
+  "languages": [
+    {
+      "name": "Angular",
+      "icon": "assets/icons/angular.png"
+    },
+    {
+      "name": "C",
+      "icon": "assets/icons/c.png"
+    },
+    {
+      "name": "CSS",
+      "icon": "assets/icons/css.png"
+    },
+    {
+      "name": "Git",
+      "icon": "assets/icons/git.png"
+    },
+    {
+      "name": "GitHub",
+      "icon": "assets/icons/github.png"
+    },
+    {
+      "name": "HTML",
+      "icon": "assets/icons/html.png"
+    },
+    {
+      "name": "Java",
+      "icon": "assets/icons/java.png"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "assets/icons/js.png"
+    },
+    {
+      "name": "Python",
+      "icon": "assets/icons/python.png"
+    }
+  ]
+}
