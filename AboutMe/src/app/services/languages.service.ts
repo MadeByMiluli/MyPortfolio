@@ -8,11 +8,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class LanguagesService {
 
-<<<<<<< Updated upstream
-  private apiUrl="http://localhost:3000/languages"
-=======
+
   private apiUrl="assets/languages.json"
->>>>>>> Stashed changes
    private http= inject(HttpClient);
 
     getLanguages():Observable<Language[]>{
