@@ -7,8 +7,9 @@ import { Project } from '../models/project';
   providedIn: 'root'
 })
 export class ProjectsService {
+ //private apiUrl="http://localhost:3000/projects"
+ private apiUrl="assets/projects.json"
 
- private apiUrl="assets/languages.json"
 
  private http= inject(HttpClient);
 
