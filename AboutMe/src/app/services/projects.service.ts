@@ -7,8 +7,10 @@ import { Project } from '../models/project';
   providedIn: 'root'
 })
 export class ProjectsService {
- //private apiUrl="http://localhost:3000/projects"
- private apiUrl="assets/projects.json"
+
+
+ private apiUrl="https://myportfolio-0zl4.onrender.com/projects"
+
 
 
  private http= inject(HttpClient);
