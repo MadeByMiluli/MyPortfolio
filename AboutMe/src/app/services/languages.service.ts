@@ -11,6 +11,8 @@ export class LanguagesService {
 
   private apiUrl="https://myportfolio-0zl4.onrender.com/languages"
 
+
+
    private http= inject(HttpClient);
 
     getLanguages():Observable<Language[]>{
