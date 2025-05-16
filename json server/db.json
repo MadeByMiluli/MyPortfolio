@@ -2,33 +2,33 @@
   "projects": [
     {
       "link":"https://github.com/MadeByMiluli/TPFinalMadeByMiluli",
-      "source": "/Assets/ProjectPhotos/Logo_MadeByMiluli HORIZONTAL CONTRASTE.jpg",
+      "source": "Assets/ProjectPhotos/Logo_MadeByMiluli HORIZONTAL CONTRASTE.jpg",
       "title": "Plataforma E-COMMERCE",
       "info": "Trabajo practico final de tecnicatura universitaria en progrmacion UTN. E-commerce para Made by Miluli, venta de tejidos de crochet.",
       "language":"Angular"
       },{
         "link":"http://github.com/MadeByMiluli/TP-programacionII",
-      "source": "/Assets/ProjectPhotos/5098401.jpg",
+      "source": "Assets/ProjectPhotos/5098401.jpg",
       "title": "Gestion de practicas de laboratorio",
       "info": "Sistema de Gestion de Practicas de Laboratorio. Trabajo final Programacion II",
       "language":"C"
     },{
       "link":"https://github.com/MadeByMiluli/TP-Programacion-I",
-      "source": "/Assets/ProjectPhotos/gestion deventas.png",
+      "source": "Assets/ProjectPhotos/gestion deventas.png",
       "title": "Gestion de ventas y stock",
       "info": "Sistema de gestion de Stock y Ventas. Trabajo Final para Programacion I",
       "language":"c"
     },
     {
       "link":"https://github.com/MadeByMiluli/TPFinalLabo3",
-      "source": "/Assets/ProjectPhotos/Screenshot 2025-03-30 143311.png",
+      "source": "Assets/ProjectPhotos/Screenshot 2025-03-30 143311.png",
       "title": "Forgotten Depths",
       "info": " Juego RPG . Trabajo Practico final Programacion III",
       "language":"java"
     },
     {
       "link":"https://github.com/MadeByMiluli/MyPortfolio",
-      "source": "/Assets/Flor_MadeByMiluli.png",
+      "source": "Assets/Flor_MadeByMiluli.png",
       "title": "My Portfolio",
       "info": " Porfolio,Proyeco personal",
       "language":"Angular"
@@ -40,39 +40,39 @@
   "languages": [
     {
       "name": "Angular",
-      "icon": "/Assets/icons/angular.png"
+      "icon": "Assets/icons/angular.png"
     },
     {
       "name": "C",
-      "icon": "/Assets/icons/c.png"
+      "icon": "Assets/icons/c.png"
     },
     {
       "name": "CSS",
-      "icon": "/Assets/icons/css.png"
+      "icon": "Assets/icons/css.png"
     },
     {
       "name": "Git",
-      "icon": "/Assets/icons/git.png"
+      "icon": "Assets/icons/git.png"
     },
     {
       "name": "GitHub",
-      "icon": "/Assets/icons/github.png"
+      "icon": "Assets/icons/github.png"
     },
     {
       "name": "HTML",
-      "icon": "/Assets/icons/html.png"
+      "icon": "Assets/icons/html.png"
     },
     {
       "name": "Java",
-      "icon": "/Assets/icons/java.png"
+      "icon": "Assets/icons/java.png"
     },
     {
       "name": "JavaScript",
-      "icon": "/Assets/icons/js.png"
+      "icon": "Assets/icons/js.png"
     },
     {
       "name": "Python",
-      "icon": "/Assets/icons/python.png"
+      "icon": "Assets/icons/python.png"
     }
   ]
 }
