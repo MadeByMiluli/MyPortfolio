@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, Input } from '@angular/core';
 import { ProjectCardComponent } from '../project-card/project-card.component';
 import { ProjectsService } from '../../services/projects.service';
 import { Project } from '../../models/project';
@@ -16,6 +16,7 @@ export class CarouselComponent {
   startIndex = 0;
   itemsPerPage = 1
   isMobile = false;
+  @Input() language: 'es' | 'en' = 'es';
 
   constructor(private projectService: ProjectsService) {}
 

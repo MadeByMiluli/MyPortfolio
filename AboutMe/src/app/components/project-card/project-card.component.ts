@@ -11,12 +11,13 @@ import { Router, RouterModule } from '@angular/router';
   styleUrl: './project-card.component.css'
 })
 export class ProjectCardComponent {
-  @Input() project: Project = {link:'', title: '', info: '', source: '', language:'' }; ;
-  constructor(private route:Router){}
-  click(link:string){
-    window.open(link, '_blank')
+ @Input() project: Project = {link:'', title_es: '', title_en: '', info_es: '', info_en: '', source: '', language:'' };
+ @Input() language: 'es' | 'en' = 'es';
+  constructor(private route: Router) {}
 
- }
+  click(link: string) {
+    window.open(link, '_blank');
+  }
 
 
 }

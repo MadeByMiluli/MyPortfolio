@@ -1,7 +1,7 @@
 <div class="card" (click)="click(project.link)">
   <img [src]="project.source" alt="Project Image">
-  <h2 class="title"> {{ project.title }} </h2>
-  <p class="info">{{ project.info }}</p>
+  <h2 class="title"> {{ language === 'es' ? project.title_es : project.title_en }}</h2>
+  <p class="info"> {{ language === 'es' ? project.info_es : project.info_en }}</p>
   <img src="assets/Flor_MadeByMiluli.png" alt="MadeByMiluli" class="flower">
 
 </div>

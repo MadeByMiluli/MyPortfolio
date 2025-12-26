@@ -7,7 +7,7 @@
   <div class="card-container">
     <ul class="card-list">
       <li class="card-item" *ngFor="let project of visibleProjects">
-        <app-project-card [project]="project"></app-project-card>
+        <app-project-card [project]="project" [language]="language"></app-project-card>
       </li>
     </ul>
   </div>

@@ -9,7 +9,7 @@
         <h1>Milagros Abril</h1>
         <h1>Rodriguez</h1>
 
-        <p>TECNICÁ UNIVERSITARIA EN PROGRAMACIÓN</p>
+        <p>{{ language === 'es' ? 'TECNICÁ UNIVERSITARIA EN PROGRAMACIÓN' : 'ASSOCIATE DEGREE IN PROGRAMMING' }} </p>
 
       </div>
 
@@ -34,9 +34,9 @@
     </div>
 
     <div class="project">
-      <h1>Proyectos</h1>
+      <h1>{{ language === 'es' ? 'Proyectos' : 'Projects' }}</h1>
 
-      <app-carousel></app-carousel>
+      <app-carousel [language]="language"></app-carousel>
 
 
     </div>
@@ -57,17 +57,16 @@
     <div class="about">
       <div class="top">
        <img src="Assets/Flor_MadeByMiluli.png" alt="MadeByMiluli" class="flower">
-    <h1>Sobre Mi</h1>
+    <h1> {{ language === 'es' ? 'Sobre Mi' : 'About Me' }}</h1>
       </div>
 
-    <p>
-      Estudiante de Programación trabajando en proyectos bajo el nombre MadeByMiluli. Actualmente aprendiendo Angular,
-      CSS y JavaScript,
-      y explorando el uso de Figma para planificar
-      mis diseños antes de llevarlos a código. Con una gran capacidad de aprendizaje, siempre estoy en busca de nuevos
-      desafíos.
-    </p>
-    <h2>Tecnologias con conocimientos Basicos</h2>
+<p>
+  {{ language === 'es'
+     ? 'Estudiante de Programación trabajando en proyectos bajo el nombre MadeByMiluli. Actualmente aprendiendo Angular, CSS y JavaScript, y explorando el uso de Figma para planificar mis diseños antes de llevarlos a código. Con una gran capacidad de aprendizaje, siempre estoy en busca de nuevos desafíos.'
+     : 'Programming student working on projects under the name MadeByMiluli. Currently learning Angular, CSS, and JavaScript, and exploring the use of Figma to plan my designs before turning them into code. With a strong learning ability, I am always seeking new challenges.'
+  }}
+</p>
+    <h2>{{ language === 'es' ? 'Tecnologias con conocimientos Basicos' : 'Technologies with Basic Knowledge' }}</h2>
     <app-languages-carous></app-languages-carous>
     </div>
 
@@ -102,6 +101,7 @@
         </a>
       </div>
     </div>
+
 
 
 

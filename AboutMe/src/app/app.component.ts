@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from "./components/navbar/navbar.component";
 import { StartComponent } from "./components/start/start.component";
+import { Language } from './models/languages';
 
 @Component({
   selector: 'app-root',
@@ -12,4 +13,5 @@ import { StartComponent } from "./components/start/start.component";
 })
 export class AppComponent {
   title = 'AboutMe';
+   @Input() language!: 'es' | 'en';
 }

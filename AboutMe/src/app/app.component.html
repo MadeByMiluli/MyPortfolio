@@ -1,6 +1,6 @@
 <router-outlet>
-  <app-navbar class="navBar"></app-navbar>
-  <app-start></app-start>
+  <app-navbar (languageChange)="language = $event" class="navBar"></app-navbar>
+  <app-start [language]="language"></app-start>
 
 </router-outlet>
 

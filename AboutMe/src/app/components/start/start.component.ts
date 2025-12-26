@@ -1,8 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { CarouselComponent } from "../carousel/carousel.component";
 import { LanguagesCarousComponent } from "../languages-carous/languages-carous.component";
 import { ViewportScroller } from '@angular/common';
+
 
 @Component({
   selector: 'app-start',
@@ -12,12 +13,16 @@ import { ViewportScroller } from '@angular/common';
   styleUrl: './start.component.css'
 })
 export class StartComponent {
+
+
   constructor(
     private scroller: ViewportScroller,
     private route: ActivatedRoute
   ) {}
-
+@Input() language!: 'es' | 'en';
   ngOnInit() {
+
+
     this.route.fragment.subscribe(fragment => {
       if (fragment) {
 
@@ -27,5 +32,9 @@ export class StartComponent {
       }
     });
   }
+
+
+
+
 
 }
