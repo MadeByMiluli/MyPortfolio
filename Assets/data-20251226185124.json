@@ -1,0 +1,94 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title_es": "Plataforma E-COMMERCE",
+      "title_en": "E-COMMERCE Platform",
+      "info_es": "Trabajo práctico final de tecnicatura universitaria en programación UTN. E-commerce para Made by Miluli, venta de tejidos de crochet.",
+      "info_en": "Final practical work for University Degree in Programming UTN. E-commerce for Made by Miluli, selling crochet products.",
+      "link": "https://github.com/MadeByMiluli/TPFinalMadeByMiluli",
+      "source": "Assets/ProjectPhotos/porfolio.png",
+      "language": "Angular"
+    },
+    {
+      "id": 2,
+      "title_es": "Gestión de prácticas de laboratorio",
+      "title_en": "Laboratory Practices Management",
+      "info_es": "Sistema de gestión de prácticas de laboratorio. Trabajo final Programación II.",
+      "info_en": "Laboratory practices management system. Final project Programming II.",
+      "link": "http://github.com/MadeByMiluli/TP-programacionII",
+      "source": "Assets/ProjectPhotos/5098401.jpg",
+      "language": "C"
+    },
+    {
+      "id": 3,
+      "title_es": "Gestión de ventas y stock",
+      "title_en": "Stock and Sales Management",
+      "info_es": "Sistema de gestión de stock y ventas. Trabajo final para Programación I.",
+      "info_en": "Stock and sales management system. Final project for Programming I.",
+      "link": "https://github.com/MadeByMiluli/TP-Programacion-I",
+      "source": "Assets/ProjectPhotos/gestion deventas.png",
+      "language": "C"
+    },
+    {
+      "id": 4,
+      "title_es": "Forgotten Depths",
+      "title_en": "Forgotten Depths",
+      "info_es": "Juego RPG. Trabajo práctico final Programación III.",
+      "info_en": "RPG game. Final practical work Programming III.",
+      "link": "https://github.com/MadeByMiluli/TPFinalLabo3",
+      "source": "Assets/ProjectPhotos/Screenshot 2025-03-30 143311.png",
+      "language": "Java"
+    },
+    {
+      "id": 5,
+      "title_es": "Mi Portfolio",
+      "title_en": "My Portfolio",
+      "info_es": "Portfolio, proyecto personal.",
+      "info_en": "Portfolio, personal project.",
+      "link": "https://github.com/MadeByMiluli/MyPortfolio",
+      "source": "Assets/ProjectPhotos/porfolio.png",
+      "language": "Angular"
+    }
+  
+  ],
+
+  "languages": [
+    {
+      "name": "Angular",
+      "icon": "Assets/icons/angular.png"
+    },
+    {
+      "name": "C",
+      "icon": "Assets/icons/c.png"
+    },
+    {
+      "name": "CSS",
+      "icon": "Assets/icons/css.png"
+    },
+    {
+      "name": "Git",
+      "icon": "Assets/icons/git.png"
+    },
+    {
+      "name": "GitHub",
+      "icon": "Assets/icons/github.png"
+    },
+    {
+      "name": "HTML",
+      "icon": "Assets/icons/html.png"
+    },
+    {
+      "name": "Java",
+      "icon": "Assets/icons/java.png"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "Assets/icons/js.png"
+    },
+    {
+      "name": "Python",
+      "icon": "Assets/icons/python.png"
+    }
+  ]
+}
